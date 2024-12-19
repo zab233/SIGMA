@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair Display&display=swap');
+
+
+body{
+    font-family: Playfair Display,serif;
+    background: linear-gradient(90deg, #ff0000 0%, #420202 100%);
+}
+
+.nav-link {
+    color: rgb(246, 162, 162);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(255, 0, 0);
+}
+
+.navbar-brand img{
+    width: 40px;
+    margin: 0;
+}
+
+.navbar-toggler{
+    background-color: rgb(112, 104, 104);
+}
+
+.sidebar{
+    color: rgb(239, 142, 142);
+    background: linear-gradient(270deg, #ff0000 0%, #420202 100%);
+}
+
+.card{
+    background: linear-gradient(270deg, #ff0000 0%, #420202 100%);
+    color: rgb(249, 183, 183);
+}
+
+.card a {
+    text-decoration: none;
+    color: rgb(249, 183, 183)
+
+}
+.sitt-text{
+    color: rgb(244, 189, 189) ;
+    margin: auto auto ;
+}
+@media (max-width: 775px) {
+    .carousel-indicators{
+    display:none ;   
+    }
+}
+
+.footer-text{
+    color: rgb(244, 189, 189) ;
+}
+footer{
+    background: linear-gradient(270deg, #ff0000 0%, #420202 100%);
+}
+.asd{
+    width: 70px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 10px;
+    
+}
+
+
+.navbar-collapse audio{
+    width: 300px;
+    display: flex;
+    justify-content: left;
+}
